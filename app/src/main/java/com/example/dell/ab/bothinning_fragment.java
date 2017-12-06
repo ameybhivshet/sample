@@ -20,6 +20,7 @@ public class bothinning_fragment extends Dialog_fragment {
     int width, height;
     Button back;
     View rootview;
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         rootview=inflater.inflate(R.layout.both_fragment,container,false);
