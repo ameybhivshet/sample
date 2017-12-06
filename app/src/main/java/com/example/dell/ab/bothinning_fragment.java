@@ -33,9 +33,9 @@ public class bothinning_fragment extends Dialog_fragment {
             public void onClick(View view) {
               //  Intent intent = new Intent(getActivity(), MainActivity.class);
                 //startActivity(intent);
+                getDialog().hide();
                 android.support.v4.app.FragmentManager fragmentManager=getFragmentManager();
                 Dialog_fragment dialogFragment=new Dialog_fragment();
-
                 dialogFragment.show(fragmentManager,"selectfragment");
             }
         });
